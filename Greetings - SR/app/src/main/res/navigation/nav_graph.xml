@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.hfad.translationlab.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_englishFragment"
+            app:destination="@id/englishFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_spanishFragment"
+            app:destination="@id/spanishFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_frenchFragment"
+            app:destination="@id/frenchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/englishFragment"
+        android:name="com.hfad.translationlab.EnglishFragment"
+        android:label="fragment_english"
+        tools:layout="@layout/fragment_english" />
+    <fragment
+        android:id="@+id/spanishFragment"
+        android:name="com.hfad.translationlab.SpanishFragment"
+        android:label="fragment_spanish"
+        tools:layout="@layout/fragment_spanish" />
+    <fragment
+        android:id="@+id/frenchFragment"
+        android:name="com.hfad.translationlab.FrenchFragment"
+        android:label="fragment_french"
+        tools:layout="@layout/fragment_french" />
+</navigation>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Translation Lab - SR</string>
+    <string name="tv_label">Please Select a Language:</string>
+    <string name="btn_eng">English</string>
+    <string name="btn_spanish">Spanish</string>
+    <string name="btn_french">French</string>
+    <string name="tv_hola">¡Hola!</string>
+    <string name="tv_bonjour">Bonjour!</string>
+    <string name="tv_hello">Hello!</string>
+</resources>

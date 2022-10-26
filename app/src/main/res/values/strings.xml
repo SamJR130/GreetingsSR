@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Greetings - SR</string>
+    <string name="tv_label">Please Select a Language:</string>
+    <string name="btn_text">Translate</string>
+
+    <string name="tv_hola">¡Hola!</string>
+    <string name="tv_bonjour">Bonjour!</string>
+    <string name="tv_hello">Hello!</string>
+    <string name="tv_text">Language</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+</resources>
